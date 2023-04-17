@@ -1,5 +1,4 @@
 #Tipos primitivos
-
 var=input("Insira uma informação: ")
 print("O tipo primitivo inserido: " , type(var)) #type refere-se a qual tipo de informação o usuário inseriu
 print("Contém espaços? " , var.isspace()) #isspace verifica se a variavel contém espaços
