@@ -1,0 +1,7 @@
+nome=input("Insira seu nome completo: ")
+separador=nome.split()
+primeiro=(separador[+0])
+ultimo=(separador[-1])
+print(f'Nome inserido: {nome}')
+print(f'O primeiro nome inserido foi: {primeiro}')
+print(f'O último nome inserido foi: {ultimo}')
